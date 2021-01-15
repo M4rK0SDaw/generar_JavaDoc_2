@@ -52,8 +52,10 @@ int numeroEmpleado,
 String departamento,
 
 String puesto){
-
-super(nombre, edad, sexo);
+/**
+ * metodo que pide al padre la informacion de os parametros que pasamos por el 
+ */
+super( nombre, edad, sexo);
 
 this.numeroEmpleado = numeroEmpleado;
 

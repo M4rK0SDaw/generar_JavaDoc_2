@@ -9,6 +9,30 @@ package cursojava;
  *
  * @author marqu
  */
-class Persona {
+public class Persona {
+    
+   private  int edad;
+
+   private char sexo;
+
+   private String nombre;
+   /**
+    * Este metodo constructor esta vacio.
+    */
+    Persona (){
+    }
+    
+    /**
+     * 
+     * @param n valor nombre
+     * @param e valor edad
+     * @param s  valor sexo
+     */
+    Persona( String n, int e, char s){
+    edad=e;
+    sexo = s;
+    nombre=n;
+    
+    }
     
 }
